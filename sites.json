@@ -1,0 +1,303 @@
+[
+    {
+        "name": "Agra Fort",
+        "lat": 27.1767,
+        "lng": 78.0081,
+        "info": "A historical fortification and UNESCO World Heritage Site.",
+        "description": "Agra Fort is a historical fortification located in the city of Agra, India. It served as the main residence of the Mughal emperors until 1638 and is known for its grand architecture and historical significance."
+    },
+    {
+        "name": "Ajanta Caves",
+        "lat": 20.5426,
+        "lng": 75.7061,
+        "info": "Ancient rock-cut caves and UNESCO World Heritage Site.",
+        "description": "Ajanta Caves are a group of rock-cut Buddhist cave monuments located in Maharashtra, India. The caves are renowned for their exquisite murals and sculptures, depicting the life of the Buddha."
+    },
+    {
+        "name": "Ellora Caves",
+        "lat": 20.0236,
+        "lng": 75.2920,
+        "info": "Rock-cut cave temples and UNESCO World Heritage Site.",
+        "description": "Ellora Caves are a complex of rock-cut temples and monasteries located in Maharashtra, India. The site includes Hindu, Buddhist, and Jain temples, showcasing impressive architecture and artwork."
+    },
+    {
+        "name": "Taj Mahal",
+        "lat": 27.1751,
+        "lng": 78.0421,
+        "info": "A magnificent mausoleum and UNESCO World Heritage Site.",
+        "description": "Taj Mahal is an ivory-white marble mausoleum located in Agra, India. It was commissioned by Mughal Emperor Shah Jahan in memory of his wife Mumtaz Mahal and is renowned for its stunning architecture and beauty."
+    },
+    {
+        "name": "Group of Monuments at Mahabalipuram",
+        "lat": 12.6214,
+        "lng": 80.2100,
+        "info": "A collection of rock-cut temples and UNESCO World Heritage Site.",
+        "description": "The Group of Monuments at Mahabalipuram, located in Tamil Nadu, India, consists of a series of rock-cut temples and sculptures from the 7th and 8th centuries, showcasing Dravidian architecture."
+    },
+    {
+        "name": "Sun Temple, Konârak",
+        "lat": 19.8890,
+        "lng": 85.8252,
+        "info": "A historic Sun Temple and UNESCO World Heritage Site.",
+        "description": "The Sun Temple at Konârak is a 13th-century temple dedicated to the Sun God, Surya. Located in Odisha, India, it is famous for its intricate carvings and chariot-shaped structure."
+    },
+    {
+        "name": "Kaziranga National Park",
+        "lat": 26.6550,
+        "lng": 93.1770,
+        "info": "A national park and UNESCO World Heritage Site known for its wildlife.",
+        "description": "Kaziranga National Park is located in Assam, India, and is renowned for its population of the Indian one-horned rhinoceros. The park is also home to a variety of other wildlife species and birdlife."
+    },
+    {
+        "name": "Keoladeo National Park",
+        "lat": 27.0605,
+        "lng": 77.3136,
+        "info": "A bird sanctuary and UNESCO World Heritage Site.",
+        "description": "Keoladeo National Park, located in Rajasthan, India, is a man-made wetland and bird sanctuary. It is a significant habitat for numerous bird species and is a key site for birdwatching."
+    },
+    {
+        "name": "Manas Wildlife Sanctuary",
+        "lat": 26.8813,
+        "lng": 92.0150,
+        "info": "A national park and UNESCO World Heritage Site known for its biodiversity.",
+        "description": "Manas Wildlife Sanctuary, located in Assam, India, is known for its diverse ecosystems and wildlife, including the endangered pygmy hog and the golden langur."
+    },
+    {
+        "name": "Churches and Convents of Goa",
+        "lat": 15.2993,
+        "lng": 74.1240,
+        "info": "A collection of historical churches and convents and UNESCO World Heritage Site.",
+        "description": "The Churches and Convents of Goa are a group of churches and religious buildings located in Old Goa. They are known for their Portuguese architecture and historical significance."
+    },
+    {
+        "name": "Fatehpur Sikri",
+        "lat": 27.0950,
+        "lng": 77.6619,
+        "info": "A historical city and UNESCO World Heritage Site.",
+        "description": "Fatehpur Sikri is a historical city in Uttar Pradesh, India. It was the capital of the Mughal Empire during the reign of Emperor Akbar and is known for its well-preserved architecture."
+    },
+    {
+        "name": "Group of Monuments at Hampi",
+        "lat": 15.3354,
+        "lng": 76.4602,
+        "info": "A collection of ruins and UNESCO World Heritage Site.",
+        "description": "The Group of Monuments at Hampi are the ruins of the Vijayanagara Empire's capital city, located in Karnataka, India. The site is renowned for its ancient temples and grand architecture."
+    },
+    {
+        "name": "Khajuraho Group of Monuments",
+        "lat": 24.8466,
+        "lng": 79.9197,
+        "info": "A group of temples and UNESCO World Heritage Site.",
+        "description": "The Khajuraho Group of Monuments consists of Hindu and Jain temples in Madhya Pradesh, India. The temples are famous for their intricate sculptures and erotic carvings."
+    },
+    {
+        "name": "Elephanta Caves",
+        "lat": 19.0720,
+        "lng": 72.9000,
+        "info": "A group of rock-cut temples and UNESCO World Heritage Site.",
+        "description": "The Elephanta Caves are a network of rock-cut temples located on Elephanta Island, near Mumbai, India. They are known for their impressive sculptures of Hindu deities."
+    },
+    {
+        "name": "Great Living Chola Temples",
+        "lat": 10.7880,
+        "lng": 79.1300,
+        "info": "A group of temples and UNESCO World Heritage Site.",
+        "description": "The Great Living Chola Temples, located in Tamil Nadu, India, are a group of three temples built during the Chola dynasty. They are renowned for their architectural brilliance and intricate sculptures."
+    },
+    {
+        "name": "Group of Monuments at Pattadakal",
+        "lat": 15.9144,
+        "lng": 75.7852,
+        "info": "A collection of temples and UNESCO World Heritage Site.",
+        "description": "The Group of Monuments at Pattadakal, located in Karnataka, India, consists of a series of Hindu and Jain temples. The site is known for its architectural diversity and historical significance."
+    },
+    {
+        "name": "Sundarbans National Park",
+        "lat": 21.9660,
+        "lng": 89.1833,
+        "info": "A national park and UNESCO World Heritage Site known for its mangroves and wildlife.",
+        "description": "Sundarbans National Park, located in West Bengal, India, is a protected area known for its mangrove forests and diverse wildlife, including the Bengal tiger."
+    },
+    {
+        "name": "Nanda Devi and Valley of Flowers National Parks",
+        "lat": 30.3626,
+        "lng": 79.6041,
+        "info": "National parks and UNESCO World Heritage Sites known for their natural beauty.",
+        "description": "Nanda Devi and Valley of Flowers National Parks are located in Uttarakhand, India. They are known for their stunning landscapes, rich biodiversity, and unique flora and fauna."
+    },
+    {
+        "name": "Buddhist Monuments at Sanchi",
+        "lat": 23.4868,
+        "lng": 77.7370,
+        "info": "A group of Buddhist monuments and UNESCO World Heritage Site.",
+        "description": "The Buddhist Monuments at Sanchi, located in Madhya Pradesh, India, include stupas, monasteries, and temples that date back to the 3rd century BCE, showcasing ancient Buddhist art and architecture."
+    },
+    {
+        "name": "Humayun's Tomb, Delhi",
+        "lat": 28.5935,
+        "lng": 77.2410,
+        "info": "A Mughal tomb and UNESCO World Heritage Site.",
+        "description": "Humayun's Tomb, located in Delhi, India, is the tomb of Mughal Emperor Humayun. It is an early example of Mughal architecture and served as an inspiration for the Taj Mahal."
+    },
+    {
+        "name": "Qutb Minar and its Monuments, Delhi",
+        "lat": 28.5267,
+        "lng": 77.1854,
+        "info": "A historic minaret and UNESCO World Heritage Site.",
+        "description": "The Qutb Minar and its Monuments, located in Delhi, India, include the Qutb Minar, an iconic Islamic structure, along with various other historic buildings and ruins from the Delhi Sultanate era."
+    },
+    {
+        "name": "Mountain Railways of India",
+        "lat": 27.4000,
+        "lng": 88.6333,
+        "info": "A network of heritage mountain railways and UNESCO World Heritage Sites.",
+        "description": "The Mountain Railways of India include the Darjeeling Himalayan Railway, the Nilgiri Mountain Railway, and the Kalka-Shimla Railway. They are known for their scenic routes and engineering marvels."
+    },
+    {
+        "name": "Mahabodhi Temple Complex at Bodh Gaya",
+        "lat": 24.6954,
+        "lng": 84.9915,
+        "info": "A significant Buddhist temple and UNESCO World Heritage Site.",
+        "description": "The Mahabodhi Temple Complex at Bodh Gaya, located in Bihar, India, is a significant Buddhist site where it is believed that Gautama Buddha attained enlightenment. The temple is renowned for its architecture and historical importance."
+    },
+    {
+        "name": "Rock Shelters of Bhimbetka",
+        "lat": 23.2935,
+        "lng": 77.7500,
+        "info": "A group of prehistoric rock shelters and UNESCO World Heritage Site.",
+        "description": "The Rock Shelters of Bhimbetka, located in Madhya Pradesh, India, contain prehistoric cave paintings and are significant for their depiction of early human life and culture."
+    },
+    {
+        "name": "Champaner-Pavagadh Archaeological Park",
+        "lat": 22.4186,
+        "lng": 73.2817,
+        "info": "An archaeological park and UNESCO World Heritage Site.",
+        "description": "The Champaner-Pavagadh Archaeological Park, located in Gujarat, India, includes a variety of historical sites, including mosques, temples, and fortifications from the medieval period."
+    },
+    {
+        "name": "Chhatrapati Shivaji Terminus (formerly Victoria Terminus)",
+        "lat": 18.9408,
+        "lng": 72.8347,
+        "info": "A historic railway station and UNESCO World Heritage Site.",
+        "description": "Chhatrapati Shivaji Terminus, located in Mumbai, India, is a historic railway station known for its Victorian Gothic Revival architecture and is a significant landmark in Mumbai."
+    },
+    {
+        "name": "Red Fort Complex",
+        "lat": 28.6562,
+        "lng": 77.2410,
+        "info": "A historical fort and UNESCO World Heritage Site.",
+        "description": "The Red Fort Complex, located in Delhi, India, is a 17th-century fortification built by Mughal Emperor Shah Jahan. It is known for its massive walls and historical significance."
+    },
+    {
+        "name": "The Jantar Mantar, Jaipur",
+        "lat": 26.9251,
+        "lng": 75.8267,
+        "info": "An astronomical observatory and UNESCO World Heritage Site.",
+        "description": "The Jantar Mantar in Jaipur, India, is an astronomical observatory built in the 18th century. It contains a collection of architectural instruments used for observing celestial bodies."
+    },
+    {
+        "name": "Western Ghats",
+        "lat": 11.5000,
+        "lng": 76.5000,
+        "info": "A mountain range and UNESCO World Heritage Site known for its biodiversity.",
+        "description": "The Western Ghats, extending along the western coast of India, are known for their rich biodiversity and unique ecosystems. They are a critical area for conservation and ecological study."
+    },
+    {
+        "name": "Hill Forts of Rajasthan",
+        "lat": 25.0833,
+        "lng": 75.7333,
+        "info": "A series of hill forts and UNESCO World Heritage Sites.",
+        "description": "The Hill Forts of Rajasthan include several fortifications built in the arid regions of Rajasthan, India. These forts are known for their architectural brilliance and strategic locations."
+    },
+    {
+        "name": "Great Himalayan National Park Conservation Area",
+        "lat": 31.7690,
+        "lng": 77.4414,
+        "info": "A national park and UNESCO World Heritage Site known for its natural beauty.",
+        "description": "The Great Himalayan National Park Conservation Area, located in Himachal Pradesh, India, is known for its diverse flora and fauna and stunning landscapes."
+    },
+    {
+        "name": "Rani-ki-Vav (the Queen’s Stepwell) at Patan, Gujarat",
+        "lat": 23.8494,
+        "lng": 72.4581,
+        "info": "A historic stepwell and UNESCO World Heritage Site.",
+        "description": "Rani-ki-Vav, or the Queen’s Stepwell, is a large stepwell located in Patan, Gujarat, India. It is known for its intricate architecture and detailed carvings."
+    },
+    {
+        "name": "Archaeological Site of Nalanda Mahavihara at Nalanda, Bihar",
+        "lat": 25.1294,
+        "lng": 85.4290,
+        "info": "An ancient Buddhist university and UNESCO World Heritage Site.",
+        "description": "The Archaeological Site of Nalanda Mahavihara, located in Bihar, India, was an ancient center of learning and a major Buddhist university from the 5th to 12th centuries."
+    },
+    {
+        "name": "Khangchendzonga National Park",
+        "lat": 27.4410,
+        "lng": 88.6130,
+        "info": "A national park and UNESCO World Heritage Site known for its biodiversity.",
+        "description": "Khangchendzonga National Park, located in Sikkim, India, is known for its rich biodiversity, including several rare and endangered species, and the majestic Kanchenjunga mountain."
+    },
+    {
+        "name": "The Architectural Work of Le Corbusier, an Outstanding Contribution to the Modern Movement",
+        "lat": 45.4333,
+        "lng": 4.8333,
+        "info": "A collection of works by architect Le Corbusier and UNESCO World Heritage Site.",
+        "description": "The Architectural Work of Le Corbusier includes several buildings designed by the renowned architect Le Corbusier, located in various countries including India. The sites showcase his modernist architectural principles."
+    },
+    {
+        "name": "Historic City of Ahmadabad",
+        "lat": 23.0225,
+        "lng": 72.5714,
+        "info": "A historic city and UNESCO World Heritage Site.",
+        "description": "The Historic City of Ahmadabad, located in Gujarat, India, is known for its rich history, ancient architecture, and vibrant cultural heritage."
+    },
+    {
+        "name": "Victorian Gothic and Art Deco Ensembles of Mumbai",
+        "lat": 18.9640,
+        "lng": 72.8258,
+        "info": "A collection of historic buildings and UNESCO World Heritage Site.",
+        "description": "The Victorian Gothic and Art Deco Ensembles of Mumbai are a group of historic buildings showcasing architectural styles from the 19th and early 20th centuries, located in Mumbai, India."
+    },
+    {
+        "name": "Jaipur City, Rajasthan",
+        "lat": 26.9124,
+        "lng": 75.7873,
+        "info": "A historic city and UNESCO World Heritage Site.",
+        "description": "Jaipur, the capital city of Rajasthan, India, is known for its rich history, palaces, and forts, including the Hawa Mahal and the City Palace."
+    },
+    {
+        "name": "Dholavira: a Harappan City",
+        "lat": 23.3475,
+        "lng": 69.4799,
+        "info": "An ancient Harappan city and UNESCO World Heritage Site.",
+        "description": "Dholavira is an archaeological site of an ancient Harappan city located in Gujarat, India. It is known for its advanced urban planning and ancient structures."
+    },
+    {
+        "name": "Kakatiya Rudreshwara (Ramappa) Temple, Telangana",
+        "lat": 17.3805,
+        "lng": 79.4870,
+        "info": "A historic temple and UNESCO World Heritage Site.",
+        "description": "The Kakatiya Rudreshwara (Ramappa) Temple, located in Telangana, India, is renowned for its intricate carvings and unique architecture from the Kakatiya dynasty."
+    },
+    {
+        "name": "Sacred Ensembles of the Hoysalas",
+        "lat": 13.2500,
+        "lng": 76.6000,
+        "info": "A group of historic temples and UNESCO World Heritage Site.",
+        "description": "The Sacred Ensembles of the Hoysalas, located in Karnataka, India, include several temples known for their ornate carvings and architectural excellence from the Hoysala dynasty."
+    },
+    {
+        "name": "Santiniketan",
+        "lat": 23.2169,
+        "lng": 87.7006,
+        "info": "A cultural town and UNESCO World Heritage Site.",
+        "description": "Santiniketan, located in West Bengal, India, is known for its cultural and educational significance. It was founded by Rabindranath Tagore and is home to Visva-Bharati University."
+    },
+    {
+        "name": "Moidams – the Mound-Burial System of the Ahom Dynasty",
+        "lat": 26.1710,
+        "lng": 91.7362,
+        "info": "A unique burial system and UNESCO World Heritage Site.",
+        "description": "The Moidams are the burial mounds of the Ahom dynasty, located in Assam, India. They are significant for their distinctive architectural style and historical importance."
+    }
+]

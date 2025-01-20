@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Store - Indian Clothes, Handicrafts, and More</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon"> <!-- Link to favicon -->
+
+    <style>
+        /* Basic reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+        }
+
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+
+        .logo {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.8em;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .search-bar {
+            display: flex;
+        }
+
+        .search-bar input {
+            padding: 5px;
+            border: none;
+        }
+
+        .search-bar button {
+            padding: 5px;
+            border: none;
+            background: #fff;
+            color: #333;
+            cursor: pointer;
+        }
+
+        .hero {
+            background: url('path/to/hero-background.jpg') no-repeat center center/cover;
+            color: #fff;
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .cta-button {
+            background: #e60000;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .featured-products,
+        .product-categories,
+        .special-collections,
+        .customer-reviews,
+        .cta {
+            padding: 20px;
+        }
+
+        .product-grid,
+        .category-grid,
+        .collection-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .product-item,
+        .category-item,
+        .collection-item {
+            flex: 1;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .product-item img,
+        .category-item img,
+        .collection-item img {
+            width: 100%;
+            height: auto;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #e60000;
+            color: #fff;
+            padding: 10px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .customer-reviews {
+            background: #f9f9f9;
+            padding: 20px;
+        }
+
+        .review-item {
+            border-bottom: 1px solid #ddd;
+            padding: 10px 0;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            padding: 20px;
+        }
+
+        .footer-container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .footer-left,
+        .footer-middle,
+        .footer-right {
+            flex: 1;
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding: 10px 0;
+            border-top: 1px solid #444;
+        }
+
+        .social-media {
+            display: flex;
+            gap: 10px;
+        }
+
+        .social-icon img {
+            width: 24px;
+            height: 24px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <a href="index.html" class="logo">Indian Heritage Store</a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="search-bar">
+                <input type="text" placeholder="Search products...">
+                <button type="button">Search</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <h1>Welcome to Our Online Store</h1>
+            <p>Explore a curated collection of Indian clothes, handicrafts, spices, and more.</p>
+            <a href="#shop-now" class="cta-button">Shop Now</a>
+        </section>
+
+        <!-- Featured Products -->
+        <section class="featured-products">
+            <h2>Featured Products</h2>
+            <div class="product-grid">
+                <div class="product-item">
+                    <img src="path/to/image1.jpg" alt="Product 1">
+                    <h3>Traditional Sari</h3>
+                    <p>Beautifully crafted traditional sari with intricate designs.</p>
+                    <a href="product-details.html" class="btn">View Details</a>
+                </div>
+                <div class="product-item">
+                    <img src="path/to/image2.jpg" alt="Product 2">
+                    <h3>Handcrafted Jewelry</h3>
+                    <p>Unique handcrafted jewelry pieces from various regions of India.</p>
+                    <a href="product-details.html" class="btn">View Details</a>
+                </div>
+                <div class="product-item">
+                    <img src="path/to/image3.jpg" alt="Product 3">
+                    <h3>Masala Spice Pack</h3>
+                    <p>Authentic Indian spices for your culinary adventures.</p>
+                    <a href="product-details.html" class="btn">View Details</a>
+                </div>
+                <div class="product-item">
+                    <img src="path/to/image4.jpg" alt="Product 4">
+                    <h3>Handwoven Rugs</h3>
+                    <p>Traditional handwoven rugs adding elegance to any space.</p>
+                    <a href="product-details.html" class="btn">View Details</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Product Categories -->
+        <section class="product-categories">
+            <h2>Shop by Category</h2>
+            <div class="category-grid">
+                <div class="category-item">
+                    <img src="path/to/clothes-category.jpg" alt="Clothes">
+                    <h3>Indian Clothes</h3>
+                    <p>Saris, kurtas, lehengas, and more.</p>
+                    <a href="clothes.html" class="btn">Explore</a>
+                </div>
+                <div class="category-item">
+                    <img src="path/to/handicrafts-category.jpg" alt="Handicrafts">
+                    <h3>Handicrafts</h3>
+                    <p>Traditional Indian arts and crafts.</p>
+                    <a href="handicrafts.html" class="btn">Explore</a>
+                </div>
+                <div class="category-item">
+                    <img src="path/to/food-category.jpg" alt="Packaged Food">
+                    <h3>Packaged Food</h3>
+                    <p>Indian snacks, sweets, and spices.</p>
+                    <a href="food.html" class="btn">Explore</a>
+                </div>
+                <div class="category-item">
+                    <img src="path/to/spices-category.jpg" alt="Spices">
+                    <h3>Spices</h3>
+                    <p>Authentic spices to elevate your cooking.</p>
+                    <a href="spices.html" class="btn">Explore</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Special Collections -->
+        <section class="special-collections">
+            <h2>Special Collections</h2>
+            <div class="collection-grid">
+                <div class="collection-item">
+                    <img src="path/to/collection1.jpg" alt="Collection 1">
+                    <h3>Festive Collections</h3>
+                    <p>Exclusive items for Indian festivals and celebrations.</p>
+                    <a href="festive.html" class="btn">Shop Now</a>
+                </div>
+                <div class="collection-item">
+                    <img src="path/to/collection2.jpg" alt="Collection 2">
+                    <h3>Luxury Items</h3>
+                    <p>High-end, luxury Indian products for special occasions.</p>
+                    <a href="luxury.html" class="btn">Shop Now</a>
+                </div>
+                <div class="collection-item">
+                    <img src="path/to/collection3.jpg" alt="Collection 3">
+                    <h3>Handmade Gifts</h3>
+                    <p>Personalized gifts handcrafted by skilled artisans.</p>
+                    <a href="gifts.html" class="btn">Shop Now</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Customer Reviews -->
+        <section class="customer-reviews">
+            <h2>What Our Customers Say</h2>
+            <div class="reviews">
+                <div class="review-item">
+                    <p>"The quality of the clothes and handicrafts is exceptional. Highly recommend this store!"</p>
+                    <span>- Anjali K.</span>
+                </div>
+                <div class="review-item">
+                    <p>"I love the variety of spices and packaged foods available here. Authentic and fresh!"</p>
+                    <span>- Rajesh P.</span>
+                </div>
+                <div class="review-item">
+                    <p>"Fantastic customer service and timely delivery. Will definitely shop here again."</p>
+                    <span>- Priya S.</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="cta">
+            <h2>Stay Updated with Our Latest Products and Offers!</h2>
+            <a href="newsletter.html" class="btn">Sign Up for Newsletter</a>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-left">
+                <h3>About Us</h3>
+                <p>Discover our story and learn more about our mission to bring the best of India to you.</p>
+                <a href="about.html" class="btn">Learn More</a>
+            </div>
+            <div class="footer-middle">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-right">
+                <h3>Contact Us</h3>
+                <p>Email: info@indianheritagestore.com</p>
+                <p>Phone: +91-123-456-7890</p>
+                <p>Address: 123 Heritage Street, Delhi, India</p>
+                <div class="social-media">
+                    <a href="#" class="social-icon"><img src="path/to/facebook-icon.png" alt="Facebook"></a>
+                    <a href="#" class="social-icon"><img src="path/to/twitter-icon.png" alt="Twitter"></a>
+                    <a href="#" class="social-icon"><img src="path/to/instagram-icon.png" alt="Instagram"></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Indian Heritage Store. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

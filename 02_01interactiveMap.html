@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Map of India's Heritage Sites</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <style>
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            font-family: 'Playfair Display', sans-serif;
+        }
+        
+        /* Header */
+        header {
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            background: rgba(0, 0, 0, 0.7);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            z-index: 1000;
+            height: 60px;
+            box-sizing: border-box;
+        }
+
+        header .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 24px;
+            color: white;
+            text-decoration: none;
+            /* Remove underline from the link */
+        }
+
+        header nav {
+            /* Removed flex: 1 to prevent stretching */
+            margin-right: 0;
+            justify-content: space-between;
+            /* Optional if extra space remains */
+        }
+
+        header nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            /* Adjusted padding */
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            /* Control gap between items */
+            justify-content: flex-end;
+        }
+
+        header nav ul li {
+            display: inline;
+        }
+
+        header nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+        }
+
+        /* Responsive Design for Smaller Screens */
+        @media (max-width: 768px) {
+            header nav ul {
+                justify-content: center;
+            }
+        }
+
+        header .cta {
+            background: #ff5722;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 20px;
+            text-decoration: none;
+        }
+
+        /* Header container to align items horizontally */
+        .header-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        /* Flex container for logo, search, and nav items */
+        .header-container>a,
+        .header-container>.search-container,
+        .header-container>nav {
+            margin: 0 20px;
+        }
+
+        .search-bar {
+            position: relative;
+            display: inline-block;
+        }
+
+        .search-bar input {
+            padding: 0.5rem;
+            font-size: 1rem;
+            width: 200px;
+        }
+
+        .search-bar button {
+            padding: 0.5rem;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+
+        #suggestions-list {
+            position: absolute;
+            background-color: white;
+            border: 1px solid #ddd;
+            width: 200px;
+            max-height: 150px;
+            overflow-y: auto;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        #suggestions-list li {
+            padding: 0.5rem;
+            cursor: pointer;
+        }
+
+        #suggestions-list li:hover {
+            background-color: #eee;
+        }
+
+        #map {
+            height: 100vh;
+            width: 100%;
+        }
+
+        .info {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            background: white;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Custom styles for zoom control buttons */
+        .leaflet-control-zoom {
+            position: absolute;
+            top: 70px;
+            /* Adjust this to be below the logo */
+            left: 20px;
+            /* Align with the logo */
+        }
+
+        .leaflet-control-zoom a {
+            background-color: #ff5722;
+            /* Customize button background color */
+            color: white;
+            /* Customize button text color */
+            border-radius: 5px;
+            /* Rounded corners for buttons */
+            padding: 10px;
+            /* Button size */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            /* Add shadow to the buttons */
+        }
+
+        .leaflet-control-zoom a:hover {
+            background-color: #e64a19;
+            /* Change color on hover */
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <a href="01_01homepage.html" class="logo">Indian Heritage</a>
+        <nav>
+            <ul>
+                <!-- Search Input Before "Interactive Maps" -->
+                <li>
+                    <div class="search-bar">
+                        <input type="text" id="nav-search-input" placeholder="Search heritage sites..."
+                            onkeyup="showSuggestions()">
+                        <ul id="suggestions-list"></ul> <!-- Suggestions will be displayed here -->
+                        <button onclick="searchBlog()">Search</button>
+                    </div>
+                </li>
+                <li><a href="index.html" target="_blank">Home</a></li>
+                <li><a href="05_onlineStore.html" target="_blank">Online Store</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <div id="map"></div>
+    <div class="info" id="info">Click on a heritage site to see more information.</div>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="impaje.js"></script>
+</body>
+
+</html>

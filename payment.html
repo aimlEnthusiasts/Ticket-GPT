@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(120deg, #84fab0, #8fd3f4);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            animation: bg-move 5s infinite alternate;
+        }
+
+        @keyframes bg-move {
+            0% { background-position: left; }
+            100% { background-position: right; }
+        }
+
+        .payment-container {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(10px);
+            width: 350px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .payment-container:hover {
+            transform: scale(1.05);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+        }
+
+        h2 {
+            font-size: 24px;
+            color: #333;
+            text-align: center;
+            margin-bottom: 20px;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            font-size: 14px;
+            color: #555;
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input[type="text"], input[type="number"], input[type="email"], input[type="submit"], input[type="button"] {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            box-sizing: border-box;
+            font-size: 14px;
+            transition: all 0.3s ease;
+            box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        input[type="text"]:focus, input[type="number"]:focus, input[type="email"]:focus {
+            border-color: #4CAF50;
+            box-shadow: 0 0 8px rgba(76, 175, 80, 0.6);
+            outline: none;
+        }
+
+        input[type="submit"] {
+            background: linear-gradient(45deg, #4CAF50, #81C784);
+            color: white;
+            border: none;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background 0.3s, transform 0.2s;
+        }
+
+        input[type="submit"]:hover {
+            background: linear-gradient(45deg, #66BB6A, #43A047);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        input[type="submit"]:active {
+            transform: scale(0.98);
+            background: linear-gradient(45deg, #388E3C, #2E7D32);
+        }
+
+        button.pay-now-btn {
+            font-size: 14px;
+            background: linear-gradient(135deg, #2196F3, #21CBF3);
+            color: white;
+            padding: 12px;
+            border-radius: 20px;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            transition: all 0.3s ease;
+            width: 100%;
+        }
+
+        button.pay-now-btn:hover {
+            background: linear-gradient(135deg, #1E88E5, #039BE5);
+            transform: scale(1.05);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+        }
+
+        button.pay-now-btn:active {
+            transform: scale(0.98);
+            background: linear-gradient(135deg, #1565C0, #0288D1);
+        }
+
+        .error {
+            color: #E53935;
+            font-size: 12px;
+            margin-top: 5px;
+            animation: fade-in 0.5s ease-in-out;
+        }
+
+        @keyframes fade-in {
+            from { opacity: 0; transform: translateY(-5px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="payment-container">
+        <h2>Payment Form</h2>
+        <form id="paymentForm" onsubmit="return processPayment()">
+            <div class="form-group">
+                <label for="fullName">Full Name:</label>
+                <input type="text" id="fullName" placeholder="Enter your full name" required>
+                <span id="errorFullName" class="error"></span>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+                <span id="errorEmail" class="error"></span>
+            </div>
+            <div class="form-group">
+                <label for="phoneNumber">Phone Number:</label>
+                <input type="text" id="phoneNumber" placeholder="Enter your phone number" required>
+                <span id="errorPhoneNumber" class="error"></span>
+            </div>
+            <div class="form-group">
+                <label for="amount">Amount:</label>
+                <input type="number" id="amount" placeholder="Enter amount to pay" required>
+                <span id="errorAmount" class="error"></span>
+            </div>
+            <div class="form-group">
+                <label for="cardNumber">Card Number:</label>
+                <input type="number" id="cardNumber" placeholder="Enter card number" required>
+                <span id="errorCardNumber" class="error"></span>
+            </div>
+            <div class="form-group">
+                <label for="expiryDate">Expiry Date (MM/YY):</label>
+                <input type="text" id="expiryDate" placeholder="MM/YY" required>
+                <span id="errorExpiryDate" class="error"></span>
+            </div>
+            <div class="form-group">
+                <label for="cvv">CVV:</label>
+                <input type="number" id="cvv" placeholder="Enter CVV" required>
+                <span id="errorCvv" class="error"></span>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="pay-now-btn">Pay Now</button>
+            </div>
+        </form>
+    </div>
+
+    <script>
+        function processPayment() {
+            let valid = true;
+    
+            document.querySelectorAll('.error').forEach(error => error.innerHTML = '');
+    
+            const fullName = document.getElementById('fullName').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const phoneNumber = document.getElementById('phoneNumber').value.trim();
+            const amount = document.getElementById('amount').value.trim();
+            const cardNumber = document.getElementById('cardNumber').value.trim();
+            const expiryDate = document.getElementById('expiryDate').value.trim();
+            const cvv = document.getElementById('cvv').value.trim();
+    
+            if (!fullName) {
+                document.getElementById('errorFullName').innerText = "Full name is required.";
+                valid = false;
+            }
+    
+            const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+            if (!emailPattern.test(email)) {
+                document.getElementById('errorEmail').innerText = "Please enter a valid email.";
+                valid = false;
+            }
+    
+            if (phoneNumber.length < 10) {
+                document.getElementById('errorPhoneNumber').innerText = "Phone number must be at least 10 digits.";
+                valid = false;
+            }
+
+            if (!amount || amount <= 0) {
+                document.getElementById('errorAmount').innerText = "Please enter a valid amount.";
+                valid = false;
+            }
+    
+            if (cardNumber.length < 13 || cardNumber.length > 19) {
+                document.getElementById('errorCardNumber').innerText = "Card number must be between 13 and 19 digits.";
+                valid = false;
+            }
+    
+            const expiryPattern = /^(0[1-9]|1[0-2])\/(2[3-9])$/;
+            if (!expiryPattern.test(expiryDate)) {
+                document.getElementById('errorExpiryDate').innerText = "Expiry date must be in MM/YY format.";
+                valid = false;
+            }
+    
+            if (cvv.length !== 3) {
+                document.getElementById('errorCvv').innerText = "CVV must be 3 digits.";
+                valid = false;
+            }
+    
+            if (valid) {
+                const paymentData = { fullName, email, phoneNumber, amount };
+                console.log("Payment Data:", paymentData);
+                sessionStorage.setItem("paymentData", JSON.stringify(paymentData));
+                window.location.href = 'success.html';
+            }
+    
+            return false;
+        }
+        
+    </script>
+
+
+</body>
+</html>
